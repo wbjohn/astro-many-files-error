@@ -1,0 +1,17 @@
+{
+  "name": "square-shell",
+  "type": "module",
+  "version": "0.0.1",
+  "scripts": {
+    "dev": "astro dev",
+    "start": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "astro": "astro",
+    "postinstall": "node create-files.js"
+  },
+  "dependencies": {
+    "@astrojs/mdx": "^0.17.0",
+    "astro": "^2.0.14"
+  }
+}
